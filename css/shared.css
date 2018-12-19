@@ -18,6 +18,10 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-family: 'Halyard Display';
+}
+
 .main-header {
     display: flex;
     justify-content: space-between;

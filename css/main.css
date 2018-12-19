@@ -1,0 +1,46 @@
+#sauce-cover {
+    border-bottom: 2px solid #33302D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5rem 0;
+    background-image: url('/img/logo.svg');
+    background-repeat: no-repeat;
+    background-position: left 10% bottom -70%;
+    position: relative;
+}
+
+.cover-content {
+    background-image: url('/img/original.jpg');
+    width: 950px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-content__title {
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    line-height: 1.2;
+    width: 35rem;
+    color: #33302D;
+}
+
+.cover-content__button {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    background-color: white;
+    padding: 0.8rem 2.5rem;
+    color: #e35d45;
+    transition: 0.3s;
+}
+
+.cover-content__button:hover,
+.cover-content__button:active {
+    color: white;
+    background-color: #e35d45;
+}
