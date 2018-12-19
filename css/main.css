@@ -30,17 +30,25 @@
 }
 
 .cover-content__button {
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.05rem;
-    background-color: white;
-    padding: 0.8rem 2.5rem;
-    color: #e35d45;
-    transition: 0.3s;
+    border: none;
 }
 
-.cover-content__button:hover,
-.cover-content__button:active {
-    color: white;
-    background-color: #e35d45;
+.sauce-showcase__title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 5%;
+}
+
+@media (max-width: 840px) {
+    .sauce-showcase__title-container {
+        margin: 0 10%;
+    }
+}
+
+.sauce-showcase__title {
+    font-size: 5rem;
+    letter-spacing: 0.1rem;
+    width: 44rem;
 }

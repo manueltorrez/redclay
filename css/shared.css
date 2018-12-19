@@ -15,6 +15,7 @@
 body {
     font-family: 'Halyard Text';
     font-size: 1.1rem;
+    color: #33302D;
     margin: 0;
 }
 
@@ -64,4 +65,23 @@ h1 {
 .main-header__link:hover,
 .main-header__link:active {
     color: #e35d45;
+}
+
+/* Buttons */
+
+.button {
+    color: #e35d45;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    background-color: white;
+    border: 2px solid #e35d45;
+    padding: 0.8rem 2.5rem;
+    transition: 0.3s;
+}
+
+.button:hover,
+.button:active {
+    background-color: #e35d45;
+    color: white;
 }
