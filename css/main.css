@@ -7,6 +7,7 @@
     background-image: url('/img/logo.svg');
     background-repeat: no-repeat;
     background-position: left 10% bottom -70%;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -52,3 +53,4 @@
     letter-spacing: 0.1rem;
     width: 44rem;
 }
+
