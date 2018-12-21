@@ -24,6 +24,12 @@ body {
                          'footer';
 }
 
+@media (max-width: 840px) {
+    body {
+        grid-template-rows: 5rem auto fit-content(8rem);
+    }
+}
+
 main {
     grid-area: main;
 }
@@ -52,6 +58,23 @@ h1 {
 @media (max-width: 840px) {
     .main-header {
         position: static;
+        padding: 1rem 1rem;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .main-header__logo {
+        order: 2;
+    }
+
+    .mobile-nav {
+        order: 1;
+    }
+
+    .account {
+        order: 3;
     }
 
 }
@@ -70,6 +93,29 @@ h1 {
 .main-nav__item {
     padding: 0 1rem;
     vertical-align: middle;
+}
+
+.hamburger-menu {
+    cursor: pointer;
+}
+
+.hamburger-menu__line {
+    width: 30px;
+    height: 3px;
+    background-color: #33302D;
+    margin: 0.25rem;
+}
+
+.mobile-nav__items {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-nav__item {
+    padding: 0.4rem 0;
 }
 
 .main-header__link {
