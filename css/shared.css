@@ -49,9 +49,15 @@ h1 {
     background-color: #ffffff;
 }
 
+@media (max-width: 840px) {
+    .main-header {
+        position: static;
+    }
+
+}
+
 .main-header__logo--img {
     height: 3rem;
-
 }
 
 .main-nav__items {
