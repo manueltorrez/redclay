@@ -1,3 +1,4 @@
+/* General styles */
 @font-face {
     font-family: 'Halyard Display';
     src: url('/fonts/Halyard\ Display\ Regular.ttf');
@@ -37,6 +38,8 @@ main {
 h1 {
     font-family: 'Halyard Display';
 }
+
+/* Header style */
 
 .main-header {
     grid-area: header;
@@ -135,6 +138,8 @@ h1 {
     transform: rotate(225deg) translate(10px);
 }
 
+/* Mobile navigation styles */
+
 .mobile-nav {
     position: absolute;
     z-index: -99;
@@ -168,6 +173,8 @@ h1 {
     padding: 0.4rem 0;
 }
 
+/* Links ih header */
+
 .main-header__link {
     text-decoration: none;
     color: #33302D;
@@ -197,6 +204,8 @@ h1 {
     background-color: #e35d45;
     color: white;
 }
+
+/* Footer styles */
 
 footer {
     grid-area: footer;

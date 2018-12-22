@@ -64,6 +64,8 @@
     border: none;
 }
 
+/* Sauces showcase */
+
 .sauce-showcase__title-container {
     display: flex;
     justify-content: space-between;
