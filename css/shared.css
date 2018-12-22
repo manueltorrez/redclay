@@ -99,6 +99,13 @@ h1 {
 
 .hamburger-menu {
     cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 840px) {
+    .hamburger-menu {
+        display: block;
+    }
 }
 
 .hamburger-menu__line {
