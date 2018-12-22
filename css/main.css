@@ -81,7 +81,7 @@
 }
 
 .sauce-showcase__title {
-    font-size: 5rem;
+    font-size: 6rem;
     letter-spacing: 0.1rem;
     width: 44rem;
 }
@@ -95,15 +95,25 @@
 
 .sauce-showcase__container {
     display: grid;
-    grid-template-columns: repeat(2, 40vmin);
+    grid-template-columns: repeat(2, 0.5fr);
     /* width: 880px; */
     grid-gap: 3.5rem;
-    margin: 1rem auto;
+    padding: 0 5%;
     /* height: 100vh; */
     justify-content: center;
     align-content: center;
     min-height: 0;
     min-width: 0;
+    z-index: -10;
+    position: relative;
+    bottom: 140px;
+}
+
+@media (max-width: 960px) {
+    .sauce-showcase__container {
+        margin: 1rem auto;
+        bottom: 0;
+    }
 }
 
 @media (max-width: 640px) {
