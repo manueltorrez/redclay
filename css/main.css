@@ -198,3 +198,59 @@
 .sauce-showcase__item:hover .sauce-showcase__item-name-container {
     opacity: 0;
 }
+
+/* Newsletter form */
+
+#newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #e35d45;
+    color: white;
+}
+
+.newsletter-title,
+.newsletter-subtitle {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align:center;
+}
+
+.newsletter-title {
+    letter-spacing: 0.02rem;
+}
+
+.newsletter-subtitle {
+    font-size: 1.15rem;
+}
+
+.newsletter-form {
+    margin-top: 2.5rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.newsletter-form__email,
+.newsletter-form__submit {
+    all: unset;
+}
+
+.newsletter-form__email {
+    color: #9c968f;
+    padding: 0 0.7rem;
+}
+
+.newsletter-form__submit {
+    background-image: url('/img/submit-arrow.png');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: left;
+    width: 40px;
+    height: 56px;
+    cursor: pointer;
+}
