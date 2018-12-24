@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/manueltorrez/redclay/issues"
   },
-  "homepage": "https://github.com/manueltorrez/redclay#readme"
+  "homepage": "https://github.com/manueltorrez/redclay#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }
