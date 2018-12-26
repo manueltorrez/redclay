@@ -254,3 +254,58 @@
     height: 56px;
     cursor: pointer;
 }
+
+/* Our peppers */
+
+#our-peppers {
+    padding: 3rem 0;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.our-peppers__image {
+    background-image: url('/img/our-peppers-fresno.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 55%;
+    height: 100vh;
+    transition: 0.3s;
+}
+
+.our-peppers-list {
+    align-self: center;
+    margin-left: 8rem;
+}
+
+.our-peppers-list__title {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.our-peppers-list__items {
+    list-style: none;
+    font-size: 4rem;
+    padding: 0;
+    cursor: pointer;
+}
+
+.our-peppers-list__item {
+    margin: 1rem 0;
+    width: 50%;
+    color: #33302D;
+    transition: color 0.3s;
+}
+
+.our-peppers-list__item:hover,
+.our-peppers-list__item:active {
+    color: #e35d45;
+}
+
+.our-peppers__pepper-icon {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    right: -10px;
+}
