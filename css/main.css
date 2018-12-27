@@ -525,6 +525,6 @@
         width: 100px;
         order: 1;
         align-self: center;
-        paddin
+        padding: 1rem 0;
     }
 }
