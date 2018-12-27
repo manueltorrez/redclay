@@ -371,15 +371,29 @@
 /* Inspiration section */
 
 #inspiration {
-    padding: 3.5rem 0;
+    padding: 3rem 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 1020px) {
+    #inspiration {
+        grid-template-columns: 1fr;
+        grid-row-gap: 3rem;
+    }
 }
 
 .inspiration-text {
     width: 55vw;
     padding: 0 2rem;
     font-size: 1.5rem;
+}
+
+@media (max-width: 1020px) {
+    .inspiration-text {
+        width: 100%;
+        font-size: 1.2rem;
+    }
 }
 
 .inspiration-text__title,
@@ -396,12 +410,28 @@
 
 .inspiration-text__paragraph {
     font-size: 1.2em;
+    line-height: 2rem;
 }
 
 .inspiration-text__button {
     font-size: 1.1rem;
+    display: inline-block;
 }
+
 .inspiration-image {
     height: 85vh;
     justify-self: center;
+}
+
+@media (max-width: 1020px) {
+    .inspiration-image {
+        grid-row: 1;
+    }
+}
+
+@media (max-width: 640px) {
+    .inspiration-image {
+        width: 80%;
+        height: auto;
+    }
 }
