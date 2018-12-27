@@ -435,3 +435,29 @@
         height: auto;
     }
 }
+
+/* Footer */
+
+.main-footer {
+    background-color: #33302D;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 3.5rem 0;
+}
+
+.main-footer-resources,
+.main-footer-social {
+    all: unset;
+    list-style: none;
+    align-self: center;
+}
+
+.main-footer-resources__item,
+.main-footer-social__item {
+    padding: 0.35rem 0;
+}
+
+.main-footer-form {
+    align-self: center;
+}
