@@ -458,6 +458,28 @@
     padding: 0.35rem 0;
 }
 
-.main-footer-form {
+.main-footer-newsletter__title {
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.03rem;
+    margin-bottom: 2rem;
+}
+
+.main-footer-newsletter__form {
     align-self: center;
+    border-bottom: 3px solid white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.3rem;
+}
+
+.main-footer-newsletter__form--email,
+.main-footer-newsletter__form--submit {
+    all: unset;
+}
+
+.main-footer-newsletter__form--submit {
+    text-transform: uppercase;
+    padding-right: 0.6rem;
 }
