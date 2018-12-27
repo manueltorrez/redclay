@@ -264,6 +264,12 @@
     overflow: hidden;
 }
 
+@media (max-width: 1020px) {
+    #our-peppers {
+        flex-direction: column;
+    }
+}
+
 .our-peppers__image {
     background-image: url('/img/our-peppers-fresno.jpg');
     background-repeat: no-repeat;
@@ -274,9 +280,25 @@
     transition: 0.3s;
 }
 
+@media (max-width: 1020px) {
+    .our-peppers__image {
+        width: 80%;
+        max-height: 100vw;
+        margin: auto;
+    }
+}
+
 .our-peppers-list {
     align-self: center;
     margin-left: 8rem;
+}
+
+@media (max-width: 1020px) {
+    .our-peppers-list {
+        margin-left: 10%;
+        margin-top: 3rem;
+        align-self: normal;
+    }
 }
 
 .our-peppers-list__title {
@@ -306,6 +328,12 @@
     cursor: pointer;
 }
 
+@media (max-width: 1020px) {
+    .our-peppers-list__items {
+        font-size: 3rem;
+    }
+}
+
 .our-peppers-list__item {
     margin: 1rem 0;
     width: 50%;
@@ -323,4 +351,19 @@
     width: 150px;
     height: 150px;
     right: -10px;
+}
+
+@media (max-width: 1020px) {
+    .our-peppers__pepper-icon {
+        width: 115px;
+        height: 115px;
+        right: 10px;
+        bottom: 30%;
+    }
+}
+
+@media (max-width: 640px) {
+    .our-peppers__pepper-icon {
+        bottom: 25rem;
+    }
 }
