@@ -367,3 +367,41 @@
         bottom: 25rem;
     }
 }
+
+/* Inspiration section */
+
+#inspiration {
+    padding: 3.5rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.inspiration-text {
+    width: 55vw;
+    padding: 0 2rem;
+    font-size: 1.5rem;
+}
+
+.inspiration-text__title,
+.inspiration-text__subtitle {
+    text-transform: uppercase;
+    color: #e35d45;
+    letter-spacing: 0.12rem;
+    margin: 0;
+}
+
+.inspiration-text__title {
+    margin-bottom: 0.5rem;
+}
+
+.inspiration-text__paragraph {
+    font-size: 1.2em;
+}
+
+.inspiration-text__button {
+    font-size: 1.1rem;
+}
+.inspiration-image {
+    height: 85vh;
+    justify-self: center;
+}
