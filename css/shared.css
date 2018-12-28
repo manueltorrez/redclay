@@ -98,6 +98,29 @@ h1 {
     vertical-align: middle;
 }
 
+@media (max-width: 1020px) {
+    .account__login-text {
+        display: none;
+    }
+}
+
+.account__login-icon {
+    border: 2px solid #33302D;
+    border-radius: 50%;
+    padding: 0.3rem 0.6rem;
+    text-align: center;
+    margin-left: 0.5rem;
+    text-decoration: none;
+    color: #33302D;
+    transition: 0.35s;
+}
+
+.account__login-icon:hover,
+.account__login-icon:active {
+    background-color: #33302D;
+    color: white;
+}
+
 /* Hamburger menu styles */
 
 .hamburger-menu {
@@ -173,7 +196,7 @@ h1 {
     padding: 0.4rem 0;
 }
 
-/* Links ih header */
+/* Links in header */
 
 .main-header__link {
     text-decoration: none;
