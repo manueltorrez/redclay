@@ -171,6 +171,7 @@
 .sauce-showcase__item-name {
     font-weight: 100;
     margin: 0;
+    color: #33302D;
 }
 
 .sauce-showcase__item-price {
@@ -452,6 +453,17 @@
     }
 }
 
+.main-footer__link {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.main-footer__link:hover,
+.main-footer__link:active {
+    color: #e35d45;
+}
+
 .main-footer-resources,
 .main-footer-social {
     all: unset;
@@ -507,6 +519,7 @@
     .main-footer-newsletter__form {
         width: 350px;
         max-width: 100%;
+        margin: auto;
     }
 }
 
@@ -515,9 +528,14 @@
     all: unset;
 }
 
+.main-footer-newsletter__form--email {
+    width: 100%;
+}
+
 .main-footer-newsletter__form--submit {
     text-transform: uppercase;
     padding-right: 0.6rem;
+    cursor: pointer;
 }
 
 @media (max-width: 1020px) {
